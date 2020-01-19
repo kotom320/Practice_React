@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-class Content extends Component{
+class ReadContent extends Component{
     render(){
-        console.log('Content render');
+        console.log('ReadContent render');
 
       return(
         <article>
@@ -11,4 +11,4 @@ class Content extends Component{
       );
     }
   }
-  export default Content;
+  export default ReadContent;
